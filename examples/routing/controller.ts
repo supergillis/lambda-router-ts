@@ -72,10 +72,7 @@ export const createMessage = async (req: AuthorizedRequest<apigw.Request>) => {
     name: 'Lambda Router',
   };
 
-  return some({
-    statusCode: 200,
-    body: apigw.json(result),
-  });
+  return some(apigw.json(result));
 };
 
 const hasValidCredentials = (req: apigw.Request) => true;

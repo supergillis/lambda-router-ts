@@ -8,7 +8,7 @@ See the [`examples`](examples) directory.
 
 ## Documentation
 
-See the [`docs`](docs/globals.md) directory.
+See the [Github pages](https://supergillis.github.io/lambda-router-ts) for this repository.
 
 ## To-do
 
