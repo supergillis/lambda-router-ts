@@ -1,0 +1,5 @@
+{
+  "inputFiles": "./lib",
+  "out": "./docs",
+  "plugins": ["typedoc-plugin-markdown"]
+}
