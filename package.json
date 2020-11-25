@@ -12,7 +12,7 @@
   },
   "license": "GPLv3",
   "scripts": {
-    "build": "pnpx tsc -p tsconfig.json && tsc -p tsconfig.esm.json",
+    "build": "pnpx tsc -p tsconfig.json && pnpx tsc -p tsconfig.esm.json",
     "prepublishOnly": "pnpm run build"
   },
   "main": "./dist/cjs/index.js",
@@ -26,7 +26,6 @@
     "@types/aws-lambda": "8.10.64",
     "@types/node": "8.10.66",
     "@types/route-parser": "0.1.3",
-    "ts-loader": "8.0.11",
     "ts-node": "9.0.0",
     "typedoc": "0.19.2",
     "typescript": "4.1.2"
